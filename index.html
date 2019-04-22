@@ -1,0 +1,21 @@
+<header>
+ <script src="http://wavedrom.com/skins/default.js"></script>
+ <script src="http://wavedrom.com/WaveDrom.js"></script>
+</header>
+<body onload="WaveDrom.ProcessAll()">
+
+<h2>WaveDrom Example</h2>
+
+WaveDrom timing diagrams can be embedded into the web pages, blogs, wiki pages:
+<p/>
+<script type="WaveDrom">
+{ signal : [
+  { name: "clk",  wave: "p......" },
+  { name: "bus",  wave: "x.34.5x",   data: "head body tail" },
+  { name: "wire", wave: "0.1..0." },
+]}
+</script>
+<p/>
+Yes, right in the middle of your page.
+
+</body>
